@@ -63,4 +63,22 @@
   * Cumple el principio de responsabilidad única.
   * Cumple el principio de abierto/cerrado.
 
-* **Composite**:
+* **Composite:**
+  * Permite componer objetos en estructuras de árbol y trabajar con esas estructuras como si fueran objetos individuales.
+  * Se utiliza cuando quieres que el código cliente trate elementos simples y complejos de la misma forma.
+  * Todos los elementos definidos por el patrón Composite comparten la misma interfaz común.
+  * Puedes trabajar con estructuras de árbol complejas con mayor comodidad: utiliza el poliformismo y la recursión a tu favor.
+  * Cumple el principio abierto/cerrado.
+  
+* **Decorator:**
+  * Permite añadir funcionalidades a objetos colocando estos objetos dentro de objetos encapsuladores especiales que contienen estas funcionalidades.
+  * Se utiliza cuando necesitas asignar funcionalidades adicionales a objetos durante el tiempo de ejecución sin descomponer el código que utililza esos objetos.
+  * Cuando resulte extraño o no sea posible extender el comportamiento de un objeto utilizando la herencia.
+  * Puedes extender el comportamiento de un objeto sin crear una nueva subclase.
+  * Puedes añadir o eliminar responsabilidades de un objeto durante el tiempo de ejecución.
+  * Puedes combinar varios comportamientos envolviendo un objeto con varios decoradores.
+  * Cumple el principio de responsabilidad única. Puedes dividir una clase monolítica que implementa muchas variantes posibles de comportamiento, en varias clases más pequeñas.
+  
+* **Facade:**
+
+  
